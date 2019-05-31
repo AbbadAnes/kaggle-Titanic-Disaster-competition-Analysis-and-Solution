@@ -17,15 +17,39 @@ Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
  we will use the correlation coefficient to know the best predictor variables
 </p>
 <p align="center">
-  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG width="50%" title="logo">
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG" width="50%" title="logo">
 </p>
 <p>
 it's clear that the two variables that have a correlation coefficient closest to one are:
 <br>
 - Sex: - 0.54
+<br>
 - Pclass: - 0.32
 <br>
-we recall that a perfect correlation between two variables is equal to one that is why we see that the correlation coefficient between Survived and itself is equal to one, because the values are the same                                                                     
+we remind that a perfect correlation between two variables is equal to one that is why we see that the correlation coefficient between Survived and itself is equal to one, because the values are the same                                                                     
+</p>
+<h2>Sex Variable</h2>
+<p>
+let's take a look at the sex variable now.
+this variable is Boolean ie it can have two values:
+<br>
+1: For men
+<br>
+0: For woman
+<br>
+the variable "Survived" is also Boolean:
+<br>
+1: the passenger will survive
+<br>
+0: the passenger will not survive
+<br>
+after calculating the correlation coefficient with the variable "Survived" we found a coeffition of - 0.54.
+<br>
+a negative coeffition means that the values of the two variables evolve in a contrary direction, we call it a negative correlation.
+this means that when the variable "Survive" is Zero the variable "Sex" is equal to One and vice versa.
+having a coeffition of 0.54 can be explained as follows:
+it is possible that yhe person who has survival to the disaster is a woman.
+in other words, women were more likely to survive than men
 </p>
 
 
