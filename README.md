@@ -65,6 +65,7 @@ use what we concluded earlier to strengthen our analysis
 now use the variable "Pclass" to see which class were the women who survived the disaster
 <br>
 </p>
+
 ``` Python
 len(train.loc[(train['Pclass'] == 1) & (train['Survived'] == 3) & (train['Sex'] == 0)])
 len(train.loc[(train['Pclass'] == 2) & (train['Survived'] == 2) & (train['Sex'] == 0)])
@@ -72,18 +73,31 @@ len(train.loc[(train['Pclass'] == 3) & (train['Survived'] == 1) & (train['Sex'] 
 ```
 <br>
 <p>
-That's return
+That's return :
 <br>
 54
 <br>
 54
 <br>
 63
-  
+</p>
+<br>
+<p>
+ unfortunately this information does not add value to our analysis we can't say that the women who survived were in a very specific class
+<br>
+the analysis stage is far from over, we could try to see other variables ( of course we were interested in the two best variables but maybe we could get some other information from the remaining variables ) or create predictive models to better understand our data.
+<br>
+but our goal is not to stop here, it's just a good start for creating a powerful model that can predict whether or not a passenger will survive the titanic disaster
 </p>
 
+<h2>Data Distribution</h2
+<p align="center">
+  SVM ( Support Vector Machine )
+  <br><br>
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.pngg" title="hover text">
+</p>
 
-<h1>Apprentissage</h1>
+<h1>Learning</h1>
 <h2>Algorithme utilisé</h2>
 <p align="center">
   SVM ( Support Vector Machine )
