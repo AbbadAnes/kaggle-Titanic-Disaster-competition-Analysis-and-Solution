@@ -17,7 +17,7 @@ Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
  we will use the correlation coefficient to know the best predictor variables
 </p>
 <p align="center">
-  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG" width="50%" title="logo">
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG" title="logo">
 </p>
 <p>
 it's clear that the two variables that have a correlation coefficient closest to one are:
