@@ -60,9 +60,9 @@ it is possible that the person who survive to the disaster is a woman.
 
 <h2>Pclass Variable</h2>
 <p>
-use what we concluded earlier to strengthen our analysis
+let's use what we concluded earlier to strengthen our analysis
 <br>
-now use the variable "Pclass" to see which class were the women who survived the disaster
+now  we will use "Pclass" variable to see which class were the women who survived the disaster
 <br>
 </p>
 
@@ -85,7 +85,7 @@ That's return :
 <p>
  unfortunately this information does not add value to our analysis we can't say that the women who survived were in a very specific class
 <br>
-the analysis stage is far from over, we could try to see other variables ( of course we were interested in the two best variables but maybe we could get some other information from the remaining variables ) or create predictive models to better understand our data.
+the analysis stage is far from over, we could try to see other variables ( of course we were interested in the two best variables but maybe we could get some other informations from the remaining variables ) or create predictive models to better understand our data.
 <br>
 but our goal is not to stop here, it's just a good start for creating a powerful model that can predict whether or not a passenger will survive the titanic disaster
 </p>
@@ -96,9 +96,9 @@ but our goal is not to stop here, it's just a good start for creating a powerful
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.png" title="hover text">
 </p>
 <p>
-  some machine learning algorithms like linear regression and SVM work better than the distribution of variables be Gaussian (normal)
+  some machine learning algorithms like linear regression and SVM work better when the distribution of variables be Gaussian (normal)
 <br>
-and therefore it is wise to apply a transformation "log" to have this distribution
+and therefore it's wise to apply a "log" transformation to have this distribution
 </p>
 
 <h1>Learning</h1>
@@ -110,7 +110,7 @@ and therefore it is wise to apply a transformation "log" to have this distributi
 </p>
 <h1>Performance</h1> 
 <h2>Accuracy</h2>
-Accuracy = # prédictions correctes / # prédictions totales
+Accuracy = # correct predictions / # totals predictions
 <br>
 <strong> Accuracy = 81% </strong>
 
