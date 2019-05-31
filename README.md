@@ -49,6 +49,7 @@ a negative coeffition means that the values of the two variables evolve in a con
 this means that when the variable "Survive" is Zero the variable "Sex" is equal to One and vice versa.
 having a coeffition of 0.54 can be explained as follows:
 it is possible that yhe person who has survival to the disaster is a woman.
+<br>
 <strong>in other words, women were more likely to survive than men</strong>
 </p>
 
