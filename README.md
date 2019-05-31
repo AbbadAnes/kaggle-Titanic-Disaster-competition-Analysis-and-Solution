@@ -92,9 +92,13 @@ but our goal is not to stop here, it's just a good start for creating a powerful
 
 <h2>Data Distribution</h2
 <p align="center">
-  SVM ( Support Vector Machine )
   <br><br>
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.png" title="hover text">
+</p>
+<p>
+  some machine learning algorithms like linear regression and SVM work better than the distribution of variables be Gaussian (normal)
+<br>
+and therefore it is wise to apply a transformation "log" to have this distribution
 </p>
 
 <h1>Learning</h1>
