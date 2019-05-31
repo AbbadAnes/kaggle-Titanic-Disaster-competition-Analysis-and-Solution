@@ -4,28 +4,28 @@ kaggle-Titanic-Machine-Learning-from-Disaster-Solution
 <p align="center">
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/maxresdefault.jpg" width="50%" title="logo">
 </p>
-Certains gènes, qui jouent un rôle ordinaire tout au long de notre vie, peuvent
-muter. Ce dérèglement suffit à l’apparition des cellules cancéreuses, ce qui rend
-
-l’expression génétique un élément très important dans le diagnostique des mala-
-dies néoplasiques.
-
-Aujourd’hui il est possible de prédire le type des cellules cancéreuses en se basant
-sur leurs expressions génétiques, or les tumeurs produisent une énorme quantité
-de gènes, ce qui rend la classification de ces dernières difficile.
-Le but du projet consiste à compléter les diagnostics cliniques en classifiant les
-
-tumeurs cancéreuses à partir de leurs expressions génétiques, en utilisant les mé-
-thodes statistiques et d’apprentissage automatique.
-<h2> Outils : </h2>
-Python ( Sickit-Learn )
-<h2>Données</h2>
-56,000 gènes
-6700 Patients
-<h1>Analyse de données</h1>
-<h2>Analyse de la variance ( ANOVA )</h2>
+In this challenge, we will complete the analysis of what sorts of people were likely to survive. In particular, we will apply the tools of machine learning to predict which passengers survived the tragedy.
+<h2> Tools : </h2>
+Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
+<h2>Data</h2>
+891 Observations
+12 Features :
+- Survival , Ticket class, Sex, Age in years, spouses aboard the Titanic, children aboard the Titanic, Ticket number, Passenger fare, Cabin number, Port of Embarkation.
+<h1>Data Analysis</h1>
+<h2>Correlation Coefficient</h2>
 <p> 
- En utilisant le test statistique ANOVA nous avons réussi à extraire les meilleurs
+ we will use the correlation coefficient to know the best predictor variables
+</p>
+<p align="center">
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG width="50%" title="logo">
+</p>
+<p>
+it's clear that the two variables that have a correlation coefficient closest to one are:
+<br>
+- Sex: - 0.54
+- Pclass: - 0.32
+<br>
+we recall that a perfect correlation between two variables is equal to one that is why we see that the correlation coefficient between Survived and itself is equal to one, because the values are the same                                                                     
 </p>
 
 
