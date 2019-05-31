@@ -66,6 +66,7 @@ now use the variable "Pclass" to see which class were the women who survived the
 <br>
 </p>
 <br>
+
 ``` Python
 len(train.loc[(train['Pclass'] == 1) & (train['Survived'] == 1) & (train['Sex'] == 0)])
 len(train.loc[(train['Pclass'] == 2) & (train['Survived'] == 1) & (train['Sex'] == 0)])
