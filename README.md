@@ -102,25 +102,22 @@ and therefore it is wise to apply a transformation "log" to have this distributi
 </p>
 
 <h1>Learning</h1>
-<h2>Algorithme utilisé</h2>
+<h2>Algorithm</h2>
 <p align="center">
-  SVM ( Support Vector Machine )
+  Random Forest
   <br><br>
-  <img src="https://zestedesavoir.com/media/galleries/3985/5128cf36-de17-4ebb-9495-90c9d85f006f.png" width="350" title="hover text">
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/rf.jpg" width="500" title="hover text">
 </p>
 <h1>Performance</h1> 
 <h2>Accuracy</h2>
 Accuracy = # prédictions correctes / # prédictions totales
 <br>
-<strong> Accuracy = 98% </strong>
-<h2>Courbes d'apprentissage</h2>
+<strong> Accuracy = 81% </strong>
 
-<h2>Comment utiliser le code ?</h2>
-1. Clonez le projet et decompressez code.rar
+<h2>How to use the code</h2>
+1. Clone the project
 <br>
-2. Dans le dossier R vous trouverez les scripts nécessaires pour récuperer les données à partir de la platforme TCGA
-<br>
-3. Dans le dossier Python vous trouvez un fichier visualisation.py pour visulaiser les données, et un deuxième fichier implementation.py qui contient toutes les étapes de la réalisation du projet.
-<h2>Contribution et Remerciement</h2>
-<h3>Projet réalisé par :</h3>
+2. in the script.py you will find all steps of the project
+<h2>Contribution</h2>
+<h3>Realized by:</h3>
 - Anes Abdelfatah ABBAD.
