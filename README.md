@@ -29,6 +29,7 @@ it's clear that the two variables that have a correlation coefficient closest to
 <br>
 we remind that a perfect correlation between two variables is equal to one that is why we see that the correlation coefficient between Survived and itself is equal to one, because the values are the same                                                                     
 </p>
+
 <h2>Sex Variable</h2>
 <p>
 let's take a look at the sex variable now.
@@ -55,6 +56,20 @@ it is possible that yhe person who has survival to the disaster is a woman.
 <br><br>
 <strong>BAAM ! it was easy to get OUR first Insight</strong>
 </p>
+
+
+<h2>Pclass Variable</h2>
+<p>
+use what we concluded earlier to strengthen our analysis
+<br>
+now use the variable "Pclass" to see which class were the women who survived the disaster
+<br>
+</p>
+```python
+len(train.loc[(train['Pclass'] == 1) & (train['Survived'] == 1) & (train['Sex'] == 0)])
+len(train.loc[(train['Pclass'] == 2) & (train['Survived'] == 1) & (train['Sex'] == 0)])
+len(train.loc[(train['Pclass'] == 3) & (train['Survived'] == 1) & (train['Sex'] == 0)])
+```
 
 
 <h1>Apprentissage</h1>
