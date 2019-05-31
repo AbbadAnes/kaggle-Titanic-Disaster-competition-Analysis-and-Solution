@@ -4,7 +4,7 @@ kaggle-Titanic-Machine-Learning-from-Disaster-Solution
 <p align="center">
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/maxresdefault.jpg" width="50%" title="logo">
 </p>
-In this challenge, we will complete the analysis of what sorts of people were likely to survive. In particular, we will apply the tools of machine learning to predict which passengers survived the tragedy.
+In this challenge, we will complete the analysis of what sorts of people were likely to survive. In particular, we will apply the tools of machine learning to predict which passengers survived the tragedy.*
 <h2> Tools : </h2>
 Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
 <h2>Data</h2>
