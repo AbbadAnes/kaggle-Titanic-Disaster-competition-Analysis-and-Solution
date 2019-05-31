@@ -8,7 +8,8 @@ In this challenge, we will complete the analysis of what sorts of people were li
 <h2> Tools : </h2>
 Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
 <h2>Data</h2>
-891 Observations
+891 Observations.
+<br>
 12 Features :
 - Survival , Ticket class, Sex, Age in years, spouses aboard the Titanic, children aboard the Titanic, Ticket number, Passenger fare, Cabin number, Port of Embarkation.
 <h1>Data Analysis</h1>
