@@ -65,13 +65,22 @@ use what we concluded earlier to strengthen our analysis
 now use the variable "Pclass" to see which class were the women who survived the disaster
 <br>
 </p>
-<br>
-
 ``` Python
-len(train.loc[(train['Pclass'] == 1) & (train['Survived'] == 1) & (train['Sex'] == 0)])
-len(train.loc[(train['Pclass'] == 2) & (train['Survived'] == 1) & (train['Sex'] == 0)])
+len(train.loc[(train['Pclass'] == 1) & (train['Survived'] == 3) & (train['Sex'] == 0)])
+len(train.loc[(train['Pclass'] == 2) & (train['Survived'] == 2) & (train['Sex'] == 0)])
 len(train.loc[(train['Pclass'] == 3) & (train['Survived'] == 1) & (train['Sex'] == 0)])
 ```
+<br>
+<p>
+That's return
+<br>
+54
+<br>
+54
+<br>
+63
+  
+</p>
 
 
 <h1>Apprentissage</h1>
