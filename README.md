@@ -94,7 +94,7 @@ but our goal is not to stop here, it's just a good start for creating a powerful
 <p align="center">
   SVM ( Support Vector Machine )
   <br><br>
-  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.pngg" title="hover text">
+  <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.png" title="hover text">
 </p>
 
 <h1>Learning</h1>
