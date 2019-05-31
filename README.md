@@ -33,15 +33,15 @@ we remind that a perfect correlation between two variables is equal to one that 
 let's take a look at the sex variable now.
 this variable is Boolean ie it can have two values:
 <br>
-1: For men
+<strong>1: For men</strong>
 <br>
-0: For woman
+<strong>0: For woman</strong>
 <br>
 the variable "Survived" is also Boolean:
 <br>
-1: the passenger will survive
+<strong>1: the passenger will survive</strong>
 <br>
-0: the passenger will not survive
+<strong>0: the passenger will not survive</strong>
 <br>
 after calculating the correlation coefficient with the variable "Survived" we found a coeffition of - 0.54.
 <br>
@@ -49,7 +49,7 @@ a negative coeffition means that the values of the two variables evolve in a con
 this means that when the variable "Survive" is Zero the variable "Sex" is equal to One and vice versa.
 having a coeffition of 0.54 can be explained as follows:
 it is possible that yhe person who has survival to the disaster is a woman.
-in other words, women were more likely to survive than men
+<strong>in other words, women were more likely to survive than men</strong>
 </p>
 
 
