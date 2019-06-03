@@ -15,7 +15,7 @@ Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
 <h1>Data Analysis</h1>
 <h2>Correlation Coefficient</h2>
 <p> 
- we will use the correlation coefficient to know the best predictor variables
+ we will use the correlation coefficient to know the best predictor variables.
 </p>
 <p align="center">
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG" title="logo">
