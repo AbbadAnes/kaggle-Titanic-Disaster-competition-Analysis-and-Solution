@@ -4,18 +4,18 @@ kaggle-Titanic-Machine-Learning-from-Disaster-Solution
 <p align="center">
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/maxresdefault.jpg" width="50%" title="logo">
 </p>
-In this challenge, we will complete the analysis of what sorts of people were likely to survive. In particular, we will apply the tools of machine learning to predict which passengers survived the tragedy.*
+In this challenge, we will complete the analysis of what sorts of people were likely to survive. In particular, we will also apply machine learning tools to predict which passengers can survived the tragedy.
 <h2> Tools : </h2>
 Python : Scikit-Learn, Matplotlib, Numpy, Pandas.
 <h2>Data</h2>
 891 Observations.
 <br>
 12 Features :
-- Survival , Ticket class, Sex, Age in years, spouses aboard the Titanic, children aboard the Titanic, Ticket number, Passenger fare, Cabin number, Port of Embarkation.
+Survival , Ticket class, Sex, Age in years, spouses aboard the Titanic, children aboard the Titanic, Ticket number, Passenger fare, Cabin number, Port of Embarkation.
 <h1>Data Analysis</h1>
 <h2>Correlation Coefficient</h2>
 <p> 
- we will use the correlation coefficient to know the best predictor variables.
+ we will use the correlation coefficient to get the best predictor variables.
 </p>
 <p align="center">
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/Capture.PNG" title="logo">
@@ -27,13 +27,13 @@ it's clear that the two variables that have a correlation coefficient closest to
 <br>
 - Pclass: - 0.32
 <br>
-we remind that a perfect correlation between two variables is equal to one that is why we see that the correlation coefficient between Survived and itself is equal to one, because the values are the same                                                                     
+we remind that a perfect correlation between two variables is equal to one that's why we see that the correlation coefficient between Survived and itself is equal to one, because the values are same                                                                     
 </p>
 
 <h2>Sex Variable</h2>
 <p>
 let's take a look at the sex variable now.
-this variable is Boolean ie it can have two values:
+this variable is Boolean ie it can have two values True/False 1/0:
 <br>
 <strong>1: For men</strong>
 <br>
@@ -50,7 +50,7 @@ after calculating the correlation coefficient with the variable "Survived" we fo
 a negative coeffition means that the values of the two variables evolve in a contrary direction, we call it a negative correlation.
 this means that when the variable "Survive" is Zero the variable "Sex" is equal to One and vice versa.
 having a coeffition of -0.54 can be explained as follows:
-it is possible that the person who survive to the disaster is a woman.
+it's possible that the person who survive to the disaster is a woman.
 <br><br>
 <strong>in other words, women were more likely to survive than men</strong>
 <br><br>
@@ -96,7 +96,7 @@ but our goal is not to stop here, it's just a good start for creating a powerful
   <img src="https://storage.googleapis.com/kainofreelancerpictures/anes/datadist.png" title="hover text">
 </p>
 <p>
-  some machine learning algorithms like linear regression and SVM work better when the distribution of variables be Gaussian (normal)
+  some machine learning algorithms like linear regression and SVM work better when the distribution of variables is Gaussian (normal)
 <br>
 and therefore it's wise to apply a "log" transformation to have this distribution
 </p>
